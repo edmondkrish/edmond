@@ -1,0 +1,81 @@
+body{
+    background-color:rgb(255, 255, 255) ;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+.header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 3px solid crimson;
+}
+.nav-list{
+    list-style-type: none;
+    padding:20px 15px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+.nav-list a{
+    font-size: 30px;
+    margin: 10px 15px;
+    padding:20px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+
+    
+}
+.nav-list a:hover{
+    background-color: #555;
+    color: crimson;
+    border-bottom: 3px solid #fff;
+    
+}
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+.context{
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom:2px solid #333;
+}
+
+.context a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.context a:hover{
+    color: crimson;
+    border-bottom: 3px solid crimson;
+}
+.context p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Delete Post</h1>
+    <form method="POST" action="{% url 'post_delete' post.id %}">
+        {% csrf_token %}
+        <p>Are you sure you want to delete "{{ post.title }}"?</p>
+        <button type="submit">Confirm</button>
+        <a href="{% url 'post_detail' post.id %}">Cancel</a>
+    </form>
+    <p><a href="{% url 'home' %}">Back to all posts</a></p>
+    
+{% endblock content %}
